@@ -1,10 +1,13 @@
-'''a=int(input("enter table number: "))
+#Dynamic Table using While Loop
+
+a=int(input("enter table number: "))
 b=int(input("enter the number to which table is to printed: "))
 i=1
 while i<=b:
     print(a,"x",i,"=",a*i)
-    i=i+1'''
- 
+    i=i+1
+    
+ #Dynamic Table using For Loop
 a=int(input("enter table number: "))
 b=int(input("enter the number to which table is to printed: "))
 i=1
