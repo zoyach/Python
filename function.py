@@ -1,17 +1,16 @@
+num = int(input("Enter a number to check Even or Odd: "))
 
-def square(x):
+
+def find_evenodd(num):
     '''
-    This function print square of Number
+    This function check even or odd check and return true or false respectively.
     '''
-    print(f"Square of number is {x*x}")
-
-square(2)
-square(4)
-square(6)
-
-
-
+    if (num%2==0):
+       print(num, "is an Even number")
+    else:
+      print(num,"is an Odd number")
+     
+find_evenodd(num)
 
 
 
- 
