@@ -20,5 +20,11 @@ print(name[0:])
   
 print(name[-4:-1])     #same as name[1:4]
 
+#Slicing with skip value
+# We can provide a skip value as a part of our slice like this:
+name = "Fatima"
+print(name[0::1])
+print(name[0::2])
+print(name[0::3])
 
 
